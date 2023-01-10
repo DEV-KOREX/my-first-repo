@@ -1,0 +1,250 @@
+body{
+	background-color: #e7b87f;
+}
+header{
+	background-color:  #FFD8A9;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	position:-webkit-sticky;
+	position: sticky;
+	top: 0px;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+header li{
+	display: inline;
+	padding-left: 45px;
+}
+header li img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-top: -25px;
+	border-radius: 5px;
+	margin-left: 130px;
+}
+header li a{
+	color: #333;
+	text-decoration: none;
+	padding: 13px;
+	transition: .3s ease;
+	text-transform: capitalize;          
+	font-weight: bold;
+	font-size: 16;
+}
+header li a.contactus{
+	background-color:#704512;
+	border-radius: 5px;
+	float:right;
+	margin-top: -10px;
+	margin-right: 200px;
+	color: white;
+}
+header li a:hover{
+	color:royalblue;
+}
+.container{
+	width: 80%;
+	border:1px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 7px 29px 0px gray;
+	height: auto;
+	background-color: #E38B29;
+	border-radius: 5px;
+}
+.container .image-wrapper{
+	height: 300px;
+	width: 300px;
+	float: left;
+	
+}
+.image-wrapper img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+
+	
+}
+.desc{ 
+	float: left;
+	width: 60%;
+	margin-left:5%;
+	padding: 10px;
+}
+.clear{
+	clear: both;
+}
+.desc h1{
+	color: #FDEEDC;
+	font-family: segoe print;
+	font-size: 45;
+	margin:10px 0;
+}
+.desc .title {
+	color: #FDEEDC;
+	font-weight: bold;
+}
+.desc p{
+	text-align: justify;
+	line-height: 25px;
+	font-size: 16px;			
+}
+.desc .btn{
+	width: 100px;
+	height: 50px;
+	background-color:#FDEEDC;
+	color: black;
+	border:1px solid #FDEEDC;
+	outline: none;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 10px;
+	text-decoration: none;
+}
+.panel{
+	border: 1px solid #999999;
+	border-radius: 5px;
+	margin-top: 20px;
+	background-color: #FFD8A9;
+}
+.panel .panelheader{
+	height: 20px;
+    background-color: #F1A661;
+    color: white;
+    padding: 15px 10px;
+}
+.panel .panelheader .title{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.panel .panelcontent{
+	padding: 10px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+.panel .panelcontent .panelitem{
+	width: 48%;
+	height: 30px;
+	margin: 10px 2px;
+	font-weight: bold;
+	justify-content: right;
+}
+.panel .panelcontent .panelitem span{
+	font-style: italic;
+	color: white;
+}
+.skill{
+	border: 1px solid #999999;
+	border-radius: 5px;
+	margin-top: 20px;
+	background-color: #FFD8A9;
+}
+.skill .skillheader{
+	height: 20px;
+    background-color: #F1A661;
+    color: white;
+    padding: 15px 10px;
+}
+.skill .skillheader .skilltitle{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.skill .skillcontent{
+	padding: 10px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+.skill .skillcontent .skills{
+	width: 48%;
+	height: 30px;
+	margin: 10px 2px;
+	font-weight: bold;
+	justify-content: right;
+}
+.panelcontent .form .formcontent .group{
+	margin-bottom: 5px;
+}
+.panelcontent .form .formcontent .group label{
+	font-size: 20px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.panelcontent .form .formcontent .group input{
+	display: block;
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 3px;
+	height: 25px;
+	outline: none;
+	border: 1px solid #eee;
+	font-size: 18px;
+}
+.panelcontent .form .formcontent .group textarea{
+	display: block;
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 3px;
+}
+.panelcontent .form{
+	width: 40%;
+	margin-right: 4%;
+}
+.panelheader .title1{
+	height: 20px;
+    background-color: #F1A661;
+    color: white;
+    padding: 15px 10px;
+}
+.btn-new{
+	width: 100px;
+	height: 50px;
+	background-color:#704512;
+	color: white;
+	border:1px solid #704512;
+	outline: none;
+	font-weight: bold;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 18px;
+	text-decoration: none;
+}
+.formtitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+.contact .contactheader .contact-title{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+
+
+}
+.contact .socialbody{
+	margin-top :30px;
+
+}
+.contact .socialbody img{
+	margin: 15px;
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+}
+.contact .socialbody .separate{
+	display: flex;
+}
+.contact .socialbody .separate a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+}

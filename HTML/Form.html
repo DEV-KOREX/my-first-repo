@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		.container{
+			width: 80%;
+			border: 1px solid black;
+			margin: 0 auto;
+			padding: 20px;
+			box-shadow: 0px 7px 29px 0;
+			background-color: white;
+		}
+		.p .label{
+			color: grey;
+		}
+	</style>
+</head>
+<body style="background-color:grey">
+	<div class="container">
+<form>
+	<p>
+		<label>First Name:</label>
+		<input type="text" name="Fname" placeholder="Enter your first name">
+	</p>
+	<p>
+		<label>Email:</label>
+		<input type="Email" name="Email" placeholder="Enter your Email">
+	</p>
+	<p>
+		<label>URL:</label>
+		<input type="URL" name="URL" placeholder="Enter your URL">
+	</p>
+	<p>
+		<label>File:</label>
+		<input type="file" name="file" placeholder="upload your file">
+	</p>
+	<p>
+		<label>Password:</label>
+		<input type="Password" name="password" placeholder="Enter your password">
+	</p>
+	<p>
+		<label>Datetime-local</label>
+		<input type="Datetime-local" name="Datetime-local" placeholder="Enter your date">
+	</p>
+	<p>
+		<label>tel</label>
+		<input type="tel" name="tel" placeholder="Enter your telephone line" min="0" max="100"/>
+	</p>
+	<p>
+		<label>gender</label>
+		<input type="radio" value="male" name="gender">
+		MALE
+		<input type="radio" value="Female" name="gender">
+		FEMALE
+	</p>
+	<p>
+		<label>Hobby</label>
+		<input type="checkbox" value="singing" name="Hobby 1">
+	    singing
+		<input type="checkbox" value="dancing" name="Hobby 2">
+        Dancing
+        <input type="checkbox" value="Writing" name="Hobby 3">
+        Writing
+     </p>
+     <p>
+     	<textarea rows="10" cols="30" placeholder="Type your message" name="message">
+     		Give us your feedback.
+     	</textarea>
+     </p>
+     <p>
+     	<label> Local Government area</label>
+     	<select name="LGA">
+     		<option value="">select your State</option>
+     		<option value="alimosho">Lagos</option>
+     		<option value="agege">agege</option>
+     		<option value="Sango">Sango</option>
+     	</select>
+     </p>
+     <input type="submit" value="Submit info" name="Submit">
+     <button type="Submit">Submit info</button>
+     </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body,html{
+    		height: 100%;
+    	}
+body{
+	background-image: url("../img/background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img{
+	border-radius: 50px;
+	height: 100px;
+	width: 150px;
+    text-align: center;
+}
+.img{
+	margin-left: 200px;
+}

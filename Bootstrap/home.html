@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Collapse sidebar in Bootstrap 4</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+	<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+        <a href="#" class="navbar-brand"><img src="img/Devchat.png" class="img-fluid" width="100"></a>
+        <button class="navbar-toggler" type="botton" data-target="#navbar-id" data-toggle="collapse" aria-controls="navbar-id" >
+            <span class="navbar-toggler-icon" aria-expanded="false"></span>
+        </button>
+    <div id="navbar-id" class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item"><h3 class="korex">HI KOREX</h3></li>
+        </ul>
+    </div>
+    </nav>
+
+<div class="wrapper">
+	
+ <nav id="sidebar">
+ 	
+ 	 <div class="sidebar-header">
+ 	 	<h3><i class="fa fa-house-user"></i> Korex</h3>
+ 	 </div>
+ 	 <ul class="lisst-unstyled components">
+
+ 	 	<p><i class="fa fa-align-justify"></i> Menu</p>
+ 	 	<li class="active">
+ 	 		<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Dashboard</a>
+ 	 	  <ul class="collapse list-unstyled" id="homeSubmenu">
+
+ 	 	  </ul>
+ 	 	</li>
+ 	 	<li>
+ 	 		<a href="#"><i class="fa fa-info-circle"></i> About</a>
+ 	 	</li>
+ 	 	<li>
+ 	 		<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"><i class="fa fa-user"></i> Profile</a>
+ 	 		<ul class="collapse list-unstyled" id="pageSubmenu">
+ 	 		</ul>
+ 	 	</li>
+
+ 	 	 	 	<li>
+ 	 				<a href="#">Transactions</a>
+ 	 			</li>
+         <li>
+ 	 				<a href="#"><i class="fa fa-cog"></i> Settings</a>
+ 	 			</li>
+       </ul>
+ </nav>
+
+
+<div id="content">    
+ </div> 
+       <div class="card-deck" style="padding: 30px;">
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the first card</p>
+      </div>
+    </div>
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">Transactions</p>
+        <p class="card-text">6</p>
+      </div>
+    </div>
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">Some text inside the third card</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+</script>
+
+
+</body>
+</html>
